@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>휴롬주스카페</title> <!-- [D] 페이지 마다 title 텍스트 변경됨 -->
+<link rel="stylesheet" type="text/css" href="css/hurom_cafe.css">
+</head>
+<body>
+<!-- [D] 전페이지 공통 건너띄기 링크 제공 -->
+<ul id="skip">
+<li><a href="#lnb" onclick="document.getElementById('lnb').tabIndex=-1;document.getElementById('lnb').focus();return false;">주 메뉴 바로가기</a></li>
+<li><a href="#content" onclick="document.getElementById('content').tabIndex=-1;document.getElementById('content').focus();return false">본문 바로가기</a></li>
+</ul>
+<!-- //[D] 전페이지 공통 건너띄기 링크 제공 -->
+
+<hr>
+
+<div id="wrap">
+	<!-- [D] HEADER -->
+	<div id="header">
+		<!-- [D] global navigation bar -->
+		<div id="gnb">
+			<div class="section">
+				<ul class="hg_menu">
+				<li><a href="#">휴롬</a></li>
+				<li class="selected"><a href="#">휴롬주스</a></li> <!--[D] 메뉴 활성화 상태 -->
+				<li><a href="#">커뮤니티</a></li>
+				<li><a href="#">쇼핑몰</a></li>
+				</ul>
+				<div class="btn_gbx">
+					<span class="user"><span class="name"><em>휴롬</em>님</span> <em>(30점)</em></span>
+					<a href="#" class="bntx">로그인</a>
+					<a href="#" class="bntx">로그아웃</a>
+					<a href="#" class="bntx">회원가입</a>
+					<a href="#" class="bntx">회원정보변경</a>
+				</div>
+			</div>
+		</div>
+		<!-- //[D] global navigation bar -->
+
+		<h1 class="logo"><a href="/juice/" class="sp">HUROM JUICE CAFE Simply &amp; Slowly Change your life</a></h1>
+
+		<!-- [D] local navigation bar -->
+		<div id="lnb">
+			<a href="#"><span class="line"></span><span class="sp m1">HOME</span><span class="ude"></span></a>
+			<a href="#" class="selected"><span class="line"></span><span class="sp m2">채소 과일의 힘</span><span class="ude"></span></a> <!-- [D] 활성화 상태 -->
+			<a href="#"><span class="line"></span><span class="sp m3">휴롬주스</span><span class="ude"></span></a>
+			<a href="#"><span class="line"></span><span class="sp m4">휴롬주스카페</span><span class="ude"></span></a>
+			<a href="#"><span class="line"></span><span class="sp m5">건강정보</span><span class="ude"></span></a>
+			<a href="#"><span class="line"></span><span class="sp m6">회사소개</span><span class="ude"></span></a>
+
+			<h2 class="blind">HOME</h2> <!-- [D] lnb가 활성화된 메뉴명을 개발에서 넣어주세요 -->
+		</div>
+		<!-- //[D] local navigation bar -->
+
+		<!-- [D] sub navigation bar -->
+		<!-- [D] 따라다닐 경우 fixed 클래스 추가 // 적용메뉴 : 채소과일의힘, 휴롬주스, 휴롬주스카페 -->
+		<div class="snb">
+			<a href="#anchor1" class="selected"><span class="line"></span>자연의 위대함</a> <!-- [D] 활성화 상태 -->
+			<a href="#anchor2"><span class="line"></span>잘못된 식습관</a>
+			<a href="#anchor3"><span class="line"></span>채소 과일 섭취의 중요성</a>
+			<a href="#anchor4"><span class="line"></span>채소 과일 영양소</a>
+			<a href="#anchor5"><span class="line"></span>건강 주스 소개/장점</a>
+		</div>
+		<!-- //[D] sub navigation bar -->
+	</div>
+	<!-- //[D] HEADER -->
+
+	<hr>
+
+	<!-- [D] CONTAINER -->
+	<div id="container">
+		<!-- [D] CONTENTS -->
+		<div id="content"></div>
+		<!-- //[D] CONTENTS -->
+
+		<div class="bn_top"><a href="#top" class="sp">TOP</a></div> <!-- [D] 푸터가 나오면 푸터 위로 20px 위치로 변경 -->
+	</div>
+	<!-- //[D] CONTAINER -->
+
+	<hr>
+
+	<!-- [D] FOOTER -->
+	<div id="footer">
+		<div class="bn_top"><a href="#top" class="sp">TOP</a></div> <!-- [D] 푸터가 나오면 푸터 위로 20px 위치로 변경 -->
+		<h2 class="ft_logo sp">HUROM JUICE CAFE</h2>
+		<p class="ft_info sp">서울특별시 강남구 도산대로 164(논현동) | 대표 : 박정률 | 대표번호 : 1644-1514 | 가맹점문의 : 1644-1514, FC@HUROM.COM | 제휴문의 : 정연호 YEONHO.JEONG@HUROM.COM</p>
+		<div class="ft_link">
+			<a href="#" class="sp nk1">개인정보 취급방침</a>
+			<a href="#" class="sp nk2">이용약관</a>
+		</div> 
+		<div class="ft_share">
+			<a href="#" class="sp nv">NAVER</a>
+			<a href="#" class="sp fb">Facebook</a>
+			<a href="#" class="sp ig">Instagram</a>
+			<a href="#" class="sp yt">Youtube</a>
+
+		</div>
+		<div class="ft_line"></div>
+		<address class="ft_copy sp">COPYRIGHT &copy; 2015 HUROM FARM. ALL RIGHTS RESERVED.</address>
+	</div>
+	<!-- //[D] FOOTER -->
+</div>
+
+<hr>
+
+<!-- [D] LAYER -->
+<div id="layer"></div>
+<!-- [D] LAYER -->
+</body>
+</html>

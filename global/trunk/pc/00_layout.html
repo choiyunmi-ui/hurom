@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GLOBAL HUROM</title> <!-- [D] 페이지 마다 title 텍스트 변경됨 -->
+<link rel="stylesheet" type="text/css" href="css/hurom_global.css">
+</head>
+<body>
+<!-- [D] 전페이지 공통 건너띄기 링크 제공 -->
+<ul id="skip">
+<li><a href="#gnb" onclick="document.getElementById('gnb').tabIndex=-1;document.getElementById('gnb').focus();return false;">skip to navigation</a></li>
+<li><a href="#content" onclick="document.getElementById('content').tabIndex=-1;document.getElementById('content').focus();return false;">skip to contents</a></li>
+</ul>
+<!-- //[D] 전페이지 공통 건너띄기 링크 제공 -->
+<div id="wrap" class="main"> <!-- [D] 페이지 마다 class 변경됨 -->
+	<!-- [D] 전페이지 공통 헤더 -->
+	<div id="header">
+		<!-- [D] 전페이지 공통 네비게이션 -->
+		<div id="gnb">
+			<div class="bg"><span class="lf"></span><span class="rf"></span></div>
+			<div class="section">
+				<h1 class="hd_logo"><a href="#"><strong class="sp">HUROM</strong></a></h1>
+				<ul class="hd_menu">
+				<li class="selected"><a href="#">WHY JUICE?</a></li> <!-- [D] 메뉴 활성화 상태 -->
+				<li><a href="#">HUROM JUICE</a></li>
+				<li><a href="#">TECHNOLOGY</a></li>
+				<li><a href="#">PRODUCTS</a></li>
+				<li><a href="#">HISTORY</a></li>
+				</ul>
+				<div class="hd_language">
+					<a href="#" class="btn">
+						<span class="sp gb">Global</span>
+						<span class="sp arr"></span>
+					</a>
+					<div class="langbx" style="display:block;"> <!-- [D] 언어 선택시 활성화 -->
+						<div class="bg2"></div>
+						<ul>
+						<li><a href="#"><span class="sp jp"></span>JAPAN</a></li>
+						<li><a href="#"><span class="sp us"></span>USA</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //[D] 전페이지 공통 네비게이션 -->
+
+		<!-- [D] 각 페이지 상단 표현이 달라짐 -->
+		<div class="spot"></div>
+		<!-- //[D] 각 페이지 상단 표현이 달라짐 -->
+	</div>
+	<!-- //[D] 전페이지 공통 헤더 -->
+	<hr>
+	<!-- [D] 전페이지 공통 콘텐츠 영역 -->
+	<div id="container">
+		<div id="content"></div>
+	</div>
+	<!-- //[D] 전페이지 공통 콘텐츠 영역 -->
+	<hr>
+	<!-- [D] 전페이지 공통 푸터 -->
+	<div id="footer">
+		<div class="section ftview_cont">
+			<h2 class="ft_logo"><a href="#"><strong class="sp">HUROM Since 1974</strong></a></h2>
+			<button type="button" class="ft_contact">Contact Us <span class="line"></span><span class="sp"></span></button> <!--[D] 클릭시 부모 .section에 .ftview_cont 추가 -->
+			<address class="ft_copy">&copy; 2015 HUROM CO. LTD, ALL RIGHTS RESERVED.</address>
+			<!-- contact layer -->
+			<div class="ly_ftcont">
+				<h3 class="ft_subtt">Contact Us</h3>
+				<ul class="cont_lst">
+				<li><span class="in">Asia Division</span> <a href="mailto:tysonjo@hurom.com"><span class="sp"></span>tysonjo@hurom.com</a></li>
+				<li><span class="in">Europe</span> <a href="mailto:dahyi@hurom.com"><span class="sp"></span>dahyi@hurom.com</a></li>
+				<li><span class="in">South America Division</span> <a href="mailto:pablo.oh@hurom.com"><span class="sp"></span>pablo.oh@hurom.com</a></li>
+				<li><span class="in">North Americs Division</span> <a href="mailto:daniel@hurom.com"><span class="sp"></span>daniel@hurom.com</a></li>
+				<li><span class="in">Russia/CIS Division</span> <a href="mailto:sasha@hurom.com"><span class="sp"></span>sasha@hurom.com</a></li>
+				<li><span class="in">Middle East/Africa Division</span> <a href="mailto:thomas.kim@hurom.com"><span class="sp"></span>thomas.kim@hurom.com</a></li>
+				<li><span class="in">China Division</span> <a href="mailto:kijonghan@hurom.com"><span class="sp"></span>kijonghan@hurom.com</a></li>
+				<li><span class="in">Japan Division</span> <a href="mailto:khsung@hurom.com"><span class="sp"></span>khsung@hurom.com</a></li>
+				<li><span class="in">India Division</span> <a href="mailto:sw.honng@hurom.com"><span class="sp"></span>sw.honng@hurom.com</a></li>
+				<li><span class="in">Marketing<br>(Exhibition Planning &amp; Home Shopping)</span> <a href="mailto:marketing@hurom.com"><span class="sp"></span>marketing@hurom.com</a></li>
+				</ul class="in">
+				<button type="button" class="btn_close"><span class="sp">닫기</span></button>
+			</div>
+			<!-- //contact layer -->
+		</div>
+	</div>
+	<!-- //[D] 전페이지 공통 푸터 -->
+</div>
+</body>
+</html>

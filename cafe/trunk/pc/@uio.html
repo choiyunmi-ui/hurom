@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>휴롬주스카페</title>
+<link rel="stylesheet" type="text/css" href="css/hurom_cafe.css">
+</head>
+<body  style="padding:0 100px;">
+<!--[D] 선택된 항목 li에 .selected 클래스 추가 -->
+<div style="margin:50px 0;text-align:center;">
+	<h1>공통 TAB</h1>
+	<p>width는 각 영역에 상속을 받아 A 태그에 작성 / 공통 선언 변경 필요할 때 각 영역에 상속을 받아 재선언</p>
+</div>
+
+<div class="tab">
+	<ul>
+	<li class="selected"><a href="#">상담을 통한 주스 추천</a></li> <!-- [D] 활성화 상태 -->
+	<li><a href="#">주문 즉시 만드는 홈메이드 방식</a></li>
+	<li><a href="#">휴롬 건강 물 제공</a></li>
+	</ul>
+
+	<h4 class="blind">상담을 통한 주스 추천</h4> <!-- [D] 활성화된 메뉴의 텍스트 들어감 :: 개발처리 -->
+</div>
+
+<div style="margin:100px 0 50px;border-top:3px solid #ccc;text-align:center;">
+	<h1>SUB SPOT</h1>
+	<p>SPOT 배경 이미지는 STYLE CODE를 각 페이지 or 영역에 정해진 규칙에 맞춰 상속을 받아 CSS 처리 / SPOT 내 요소 간격은 공통 처리됨</p>
+	<p>이미지폰트는 배경에 포함하여 적용 / 대체텍스트는 기입</p>
+</div>
+
+<div class="spot" style="background-image:url(img/img_sub_spot.jpg)">
+	<div class="poz" id="anchor1"></div>
+	<h3 class="htt"><strong>자연의 위대함</strong></h3>
+	<p class="blind">&quot;위대한 자연에 건강의 해답이 있습니다.&quot;</p>
+	<div class="gap"><span class="ve"></span></div>
+</div>
+
+<div style="margin:100px 0 50px;border-top:3px solid #ccc;text-align:center;">
+	<h1>TITLE</h1>
+	<p>위 아래 간격은 각 영역에 상속을 받아 각자 처리</p>
+</div>
+
+<h3 class="htt"><strong>자연의 위대함</strong></h3>
+
+<br>
+
+<h4 class="ptt">자연의 신선한 채소&middot;과일로 건강한 식습관을 위해<br>체험하고 학습하는 휴롬주스카페 입니다.</h4>
+
+<br>
+
+<h4 class="ptt2">자연의 신선한 채소&middot;과일로 건강한 식습관을 위해<br>체험하고 학습하는 휴롬주스카페 입니다.</h4>
+
+<br>
+
+<h4 class="vtt">자연의 신선한 채소&middot;과일로 건강한 식습관을 위해<br>체험하고 학습하는 휴롬주스카페 입니다.</h4>
+
+<div style="margin:100px 0 50px;border-top:3px solid #ccc;text-align:center;">
+	<h1>리스트</h1>
+	<p>위 아래 간격은 각 영역에 상속을 받아 각자 처리</p>
+</div>
+
+<ul>
+<li class="dst"><span class="sp"></span>휴롬주스에는 오직 살아있는 채소&middot;과일만 들어갑니다.</li>
+<li class="dst"><span class="sp"></span>물,얼음,설탕 등의 첨가물 없이 저속 착즙 방식으로 지그시 눌러 짜 껍질과 씨앗의 영양까지 살아있는 주스입니다.</li>
+</ul>
+
+<br>
+
+<div class="viewbx">
+	<a href="#">
+		<div class="thm"><img src="img/@thum01.jpg" width="310" height="300" alt=""></div>
+		<h4 class="tt">제목 글자 제안 없음</h4>
+		<p class="tx">설명 글제 제안 없음</p>
+	</a>
+</div>
+
+<br>
+
+<div class="viewbx v2">
+	<a href="#">
+		<div class="thm"><img src="img/@thum01.jpg" width="310" height="300" alt=""></div>
+		<h4 class="tt">제목 글자 제안 없음</h4>
+		<p class="tx">설명 글제 제안 없음</p>
+	</a>
+</div>
+
+<br>
+
+<div class="viewbx v3">
+	<a href="#">
+		<div class="thm"><img src="img/@thum02.jpg" width="310" height="160" alt=""></div>
+		<h4 class="tt">제목 글자 제안 없음</h4>
+		<p class="tx">설명 글제 제안 없음</p>
+	</a>
+</div>
+
+<br>
+
+<ul class="faq">
+<li>
+	<h4 class="qt">
+		<em class="lb">Q4. </em>
+		어린아이의 잘못된 식습관, 크면 나아지지 않나요?
+	</h4>
+	<p class="at">
+		<em class="lb">A. </em>
+		세살 버릇, 여근까지 간다는 말이 있죠. 어린아이의 잘못된 식습관은 멀리 보면 굉장히 위험한 습관입니다. 어릴 적 잘못된 식습관이 어른이 된다고 하여 갑자기 올바른 식습관으로 고쳐지기는 굉장히 힘듭니다.
+	</p>
+</li>
+<li>
+	<h4 class="qt">
+		<em class="lb">Q9999. </em>
+		어린아이의 잘못된 식습관, 크면 나아지지 않나요?
+	</h4>
+	<p class="at">
+		<em class="lb">A. </em>
+		세살 버릇, 여근까지 간다는 말이 있죠. 어린아이의 잘못된 식습관은 멀리 보면 굉장히 위험한 습관입니다. 어릴 적 잘못된 식습관이 어른이 된다고 하여 갑자기 올바른 식습관으로 고쳐지기는 굉장히 힘듭니다.
+	</p>
+</li>
+</ul>
+
+<br>
+
+<ul class="viewlst">
+<li>
+	<a href="#">
+		<div class="bx">
+			<div class="thm"><img src="img/@thum02.jpg" width="310" height="160" alt=""></div>
+			<div class="inner">
+				<h4 class="tt">제목 글자수 제안 없음</h4>
+				<p class="in">2015.09.03 | 파이낸셜 뉴스 | 조회수 588</p>
+				<p class="tx">내용 최대 3줄</p>
+			</div>
+		</div>
+	</a>
+</li>
+<li>
+	<a href="#">
+		<div class="bx">
+			<div class="inner">
+				<h4 class="tt">제목 글자수 제안 없음</h4>
+				<p class="in">2015.09.03 | 파이낸셜 뉴스 | 조회수 588</p>
+				<p class="tx">내용 최대 3줄</p>
+			</div>
+		</div>
+	</a>
+</li>
+</ul>
+
+<div style="margin:100px 0 50px;border-top:3px solid #ccc;text-align:center;">
+	<h1>제목/설명 글</h1>
+	<p>위 아래 간격은 각 영역에 상속을 받아 각자 처리 // 단과 단사이 간격도 각 영역에 상속 처리</p>
+</div>
+
+<dl class="infostx">
+<dt class="tt">믹서와 블렌더</dt>
+<dd class="tx">믹서와 블렌더는 주로 음식을 만들기 전 보조 기구로 사용합니다. 주스를 만들 경우 공기가<br>유입되어 재료 본연의 영양소가 파괴되고 목 넘김이 불편하기 때문에 적당하지 않은<br>도구입니다. 또한 채소· 과일을 믹서나 블렌더로 갈아 만든 주스는 스무디로 부르는 것이<br>올바른 명칭입니다.</dd>
+</dl>
+
+<br>
+
+<dl class="infostx2">
+<dt class="tt">위대한 자연,<br>휴롬이 찾은 건강의<br>해답입니다. <span class="line"></span></dt>
+<dd class="tx">자연은 스스로를 치유하는 생명력과 질서를 가지고 있습니다.<br>우리가 자연을 가까이 해야 하는 이유는 자연은 외부로부터<br>스스로를 방어하고 재생해 내는 능력을 통해 생태계가 유지되고<br>인류도 그 안에서 건강하게 살아갈 수 있기 때문입니다. 그리고<br>건강한 자연이 우리의 먹거리가 되어야 합니다.</dd>
+</dl>
+
+<br>
+
+<dl class="infostx3">
+<dt class="tt">파이토스</dt>
+<dd class="txb">가장 신선한 채소, 과일로 즉서에서 만들어지는 휴롬주스는 휴롬의 자연 전문가<br>파이토스에 의해 만들어 집니다.</dd>
+<dd class="tx">주문 즉시 바로 제조되는 휴롬주스는 자연 전문가 파이토스가 최상의 채소&middot;과일을 선별하여 지그시 눌러 짜는 휴롬의 건강한 방식으로 만들어 냅니다.</dd>
+<dd class="tx">주문 즉시 바로 제조되는 휴롬주스는 자연 전문가 파이토스가 최상의 채소&middot;과일을 선별하여 지그시 눌러 짜는 휴롬의 건강한 방식으로 만들어 냅니다.</dd>
+<dd class="dst"><span class="sp"></span>파이토스가 되려면 전문 교육과정을 이수해야합니다.</dd>
+<dd class="dst"><span class="sp"></span>파이토스가 되려면 전문 교육과정을 이수해야합니다.</dd>
+</dl>
+
+<div style="margin:100px 0 50px;border-top:3px solid #ccc;text-align:center;">
+	<h1>부가 설명 글</h1>
+	<p>위 아래 간격은 각 영역에 상속을 받아 각자 처리</p>
+</div>
+
+<p class="stx">영국에서 전개된 채소와 과일 섭취 캠페인은 전세계 대국민 캠페인으로 퍼져 나가고 있습니다.<br>특히, 핀란드는 30년 동안 낙농업 대신 딸기류 작물산업 육성 등 국가적 건강프로젝트의 결과로<br>심장 질환 사망률이 80% 이상 감소하였습니다.</p>
+
+<br>
+
+<p class="stx2">채소와 과일에만 있는 유일한 식물 영양소. 식물이 해충, 미생물, 자외선 등의 외부의  공격으로 부터<br>스스로를 방어하기 위해 만드는 물질 섭취 시 몸 안에서 다양한 효과로 보호. 파이토케미컬은 주로 색, 향, 맛 등 나타납니다.</p>
+
+<br>
+
+<p class="stx3">휴롬주스는 대량 생산 주스와 달리 한 잔 한 잔 정성을 담아낸 홈메이드 주스로,<br>개인별 건강을 고려하여 직접 신선한 재료를 골라 만드는 맞춤주스입니다. 기호에<br>따라 단백질이 풍부한 곡류, 두뇌 발달에 좋은 견과류를 활용합니다.</p>
+
+<br>
+
+<p class="stx4">열을 가하지 않고 자연 그대로 즉석에서 지그시 눌러 짜, 생명 유지에 필수인 '효소'가 살아있는 주스입니다.<br>휴롬주스는 가공주스와 달리 소화 효소가 살아있어, 음식을 쉽게 분해시켜 소화를 도와줍니다.</p>
+
+<br>
+
+<p class="stx5">채소 과일이 건강에 좋다는 것은 알고 있지만, 자주 먹지 않으면 아무 소용이 없습니다.</p>
+
+<br>
+
+<p class="stx6">채소 과일이 건강에 좋다는 것은 알고 있지만, 자주 먹지 않으면 아무 소용이 없습니다.</p>
+
+<br>
+
+<p class="stx7">채소 과일이 건강에 좋다는 것은 알고 있지만, 자주 먹지 않으면 아무 소용이 없습니다.</p>
+
+<br>
+
+<p class="stx8">채소 과일이 건강에 좋다는 것은 알고 있지만, 자주 먹지 않으면 아무 소용이 없습니다.</p>
+
+<br>
+
+<p class="stx9">채소 과일이 건강에 좋다는 것은 알고 있지만, 자주 먹지 않으면 아무 소용이 없습니다.</p>
+
+<div style="margin:100px 0 50px;border-top:3px solid #ccc;text-align:center;">
+	<h1>중앙라인</h1>
+	<p>위 아래 간격은 각 영역에 상속을 받아 각자 처리</p>
+</div>
+
+<div class="gap"><span class="ve"></span></div>
+
+<br>
+
+<div class="gap"><span class="be"></span></div>
+
+<div style="margin:100px 0 50px;border-top:3px solid #ccc;text-align:center;">
+	<h1>주스 소개 / 주스 카페</h1>
+	<p>필요 요소만 노출로 사용, 레이아웃은 각 영역별 별도 선언</p>
+</div>
+
+<div class="probx">
+	<h5><img src="img/cafe_juice01.jpg" width="466" height="260" alt="방울토마토사과"></h5>
+	<dl class="info">
+	<dt>사과 300g | 섬유소, 칼륨, 우루솔산</dt>
+	<dd>식이섬유소가 풍부해 변비예방 및 체내 불필요한 나트륨 배출로 인해 고혈압 예방과 우루솔산이 비만 예방에 도움</dd>
+	<dt>비트 140g | 라이코펜, 루틴</dt>
+	<dd>라이코펜의 항산화 기능으로 인해 피부 노화 방지, 루틴 성분이 혈압조절을 도와 고혈압 예방 및 지방 연소</dd>
+	<dt>영양 스토리</dt>
+	<dd>사과의 섬유소는 변비 예방 및 체내 독소 배출에 좋으며, 우루솔산 성분은 비만을 예방합니다. 라이코펜이 항산화 기능으로 인해 몸 속 불필요한 독소 및 노폐물이 배출을 도와줍니다.</dd>
+	<dt>주요 효능</dt>
+	<dd>변비예방, 독소배출, 비만예방</dd>
+	</dl>
+	<p class="price">&#92; 6,900</p>
+</div>
+
+<div style="margin:100px 0 50px;border-top:3px solid #ccc;text-align:center;">
+	<h1>TABLE</h1>
+</div>
+
+<div class="tbx">
+	<table>
+	<caption><span class="blind">CAPTION</span></caption> <!-- [D] 각 콘텐츠에 따라 설정 -->
+	<col style="width:238px;">
+	<col> <!-- [D] 제일 큰 cell은 width를 넣지 않음 -->
+	<col style="width:265px;">
+	<thead>
+		<tr>
+		<th scope="col"><strong>매장명</strong></th>
+		<th scope="col"><strong>주소</strong></th>
+		<th scope="col"><strong>전화번호</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+		<th scope="row"><span>내용</span></th>
+		<td><span>내용</span></td>
+		<td><span>내용</span></td>
+		</tr>
+		<tr>
+		<th scope="row"><span>내용</span></th>
+		<td><span>내용</span></td>
+		<td><span>내용</span></td>
+		</tr>
+		<tr>
+		<th scope="row"><span>내용</span></th>
+		<td><span>내용</span></td>
+		<td><span>내용</span></td>
+		</tr>
+	</tbody>
+	</table>
+</div>
+
+<br>
+
+<div class="tbx">
+	<table>
+	<caption><span class="blind">CAPTION</span></caption> <!-- [D] 각 콘텐츠에 따라 설정 -->
+	<col style="width:238px;">
+	<col> <!-- [D] 제일 큰 cell은 width를 넣지 않음 -->
+	<col style="width:265px;">
+	<thead>
+		<tr>
+		<th scope="col"><strong>번호</strong></th>
+		<th scope="col"><strong>제목</strong></th>
+		<th scope="col"><strong>날짜</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+		<th scope="row"><span>내용</span></th>
+		<td><span class="lt"><a href="#">내용</a></span></td>
+		<td><span>내용</span></td>
+		</tr>
+		<tr>
+		<th scope="row"><span>내용</span></th>
+		<td><span class="lt"><a href="#">내용</a></span></td>
+		<td><span>내용</span></td>
+		</tr>
+		<tr>
+		<th scope="row"><span>내용</span></th>
+		<td><span class="lt"><a href="#">내용</a></span></td>
+		<td><span>내용</span></td>
+		</tr>
+		<tr>
+		<td colspan="3" class="not">등록된 리스트가 없습니다.</td>
+		</tr>
+	</tbody>
+	</table>
+</div>
+
+<div style="margin:100px 0 50px;border-top:3px solid #ccc;text-align:center;">
+	<h1>BUTTON &amp; ETC</h1>
+</div>
+
+<a href="#" class="bn bt1">지도보기</a>
+<a href="#" class="bn bt2">목록보기<span class="sp"></span></a>
+
+<br>
+
+<div class="swiper_nav">
+	<span class="sp on">1</span>
+	<span class="sp">2</span>
+</div>
+
+<br>
+
+<div class="bnb">
+	<button type="button" class="sp prev">이전 매장사진 보기</button>
+	<button type="button" class="sp next">다음 매장사진 보기</button>
+</div>
+
+<br>
+
+<div class="swiper" style="width:740px;height:400px;"> <!-- [D] 뷰의 width, height 인라인으로 처리 -->
+	<ul style="width:2220px;margin-left:-740px;"> <!-- [D] width = 이미지 width X 이미지 갯수 / 움직임은 이미지  width 만큼 -->
+	<li><img src="img/@swiper.jpg" width="740" height="400" alt=""></li>
+	<li><img src="img/@swiper.jpg" width="740" height="400" alt=""></li>
+	<li><img src="img/@swiper.jpg" width="740" height="400" alt=""></li>
+	</ul>
+</div>
+
+<br>
+
+<div class="tbp">
+	<a href="#" class="prev"><span class="sp"></span>이전<span class="bar"></span></a>
+	<a href="#" class="num"><span>1</span></a>
+	<a href="#" class="num on"><span>2</span></a>
+	<a href="#" class="num"><span>3</span></a>
+	<a href="#" class="num"><span>4</span></a>
+	<a href="#" class="num"><span>5</span></a>
+	<a href="#" class="num"><span>6</span></a>
+	<a href="#" class="num"><span>7</span></a>
+	<a href="#" class="num"><span>8</span></a>
+	<a href="#" class="num"><span>9</span></a>
+	<a href="#" class="num"><span>10</span></a>
+	<a href="#" class="next"><span class="bar"></span>다음<span class="sp"></span></a>
+</div>
+
+<br>
+
+<div class="search">
+	<fieldset>
+	<legend>게시판  검색</legend> <!-- [D] 각 콘텐츠에 따라 설정 -->
+		<div class="inp"><input type="text" title="검색어 입력"></div>
+		<button type="button" class="bn">검색</button>
+	</fieldset>
+</div>
+
+<br><br>
+</body>
+</html>

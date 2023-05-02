@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<title>휴롬주스카페</title> <!-- [D] 페이지 마다 title 텍스트 변경됨 -->
+<link rel="stylesheet" type="text/css" href="css/hurom_cafe_m.css">
+</head>
+<body class="gnb_open">
+<div id="wrap">
+	<!-- [D] 전페이지 공통 네비게이션 -->
+	<div id="header">
+		<h1 class="hj_logo"><a href="#"><span class="sp">HUROM JUICE CAFE</span></a></h1>
+		<!-- [D] .hj_menu 클릭 시, body에 .gnb_open 클래스 추가 -->
+		<button type="button" class="hj_menu"><span class="sp">메뉴</span></button>
+		<div class="dimmed" style="display:block;"></div>
+		<!-- [D] GNB 활성화시 -->
+		<div class="gnb">
+			<div class="scroll"><!-- [D] 스크롤 개발 제어 영역 -->
+				<ul class="menu">
+				<li><a href="#" class="home">HOME</a></li>
+				<li class="selected">  <!-- [D] 메뉴 활성화 상태 -->
+					<a href="#">채소 과일의 힘</a>
+					<ul class="sub_m">
+					<li><a href="#">자연의 위대함</a></li>
+					<li><a href="#">잘못된 식습관</a></li>
+					<li><a href="#">채소 과일 섭취의 중요성</a></li>
+					<li><a href="#">채소 과일 영양소</a></li>
+					<li><a href="#">건강주스 소개/장점</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">휴롬주스</a>
+					<ul class="sub_m">
+					<li><a href="#">휴롬주스의 정의</a></li>
+					<li><a href="#">휴롬주스의 특징</a></li>
+					<li><a href="#">휴롬주스의 특별함</a></li>
+					<li><a href="#">건강습관 휴롬주스</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">휴롬주스카페</a>
+					<ul class="sub_m">
+					<li><a href="#">카페소개</a></li>
+					<li><a href="#">카페특징</a></li>
+					<li><a href="#">카페메뉴</a></li>
+					<li><a href="#">매장위치</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">건강정보</a>
+					<ul class="sub_m">
+					<li><a href="#">레시피</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">뉴스</a></li>
+					<li><a href="#">프로모션</a></li>
+					<li><a href="#">공지사항</a></li>
+					</ul>
+				</li>
+				<li class="selected">  <!-- [D] 메뉴 활성화 상태 -->
+					<a href="#">회사소개</a>
+					<ul class="sub_m">
+					<li><a href="#">(주)휴롬팜</a></li>
+					<li><a href="#">가맹사업</a></li>
+					<li><a href="#">가맹사업FAQ</a></li>
+					<li><a href="#">글로벌 네트워크</a></li>
+					</ul>
+				</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //[D] GNB 활성화시 -->
+		<button class="bn_gnb"><span class="sp">글로벌메뉴</span></button>
+		<!--[D] GNB Layer 활성화시  -->
+		<div class="gnb_ly" style="display:block;">
+			<ul>
+			<li><a href="#" class="bn_hr">휴롬</a></li>
+			<li class="selected"><a href="#" class="bn_juice">휴롬주스</a></li>
+			<li><a href="#" class="bn_comm">커뮤니티</a></li>
+			<li><a href="#" class="bn_store">쇼핑몰</a></li>
+			</ul>
+			<a href="#" class="bn_huromkids"><img src="img/huromkids.jpg" width="230" height="45" alt="어린이 식습관 캠페인"></a>
+		</div>
+		<!-- //GNB Layer 활성화시  -->
+		<!-- [D] local navigation bar , swipe 처리 -->
+		<!-- [D] 따라다닐 경우 fixed 클래스 추가 -->
+		<div class="lnb">
+			<div class="swiper" style=""> <!--[D] ul이 device width값보다 클경우 swipe -->
+				<ul class="lnb_lst" style="width:537px"><!--[D] width = li width / 움직임은 li width 값 만큼 -->
+				<li class="selected"><a href="#"><span class="line"></span>자연의 위대함<span class="ude"></span></a></li> <!-- [D] 활성화 상태 -->
+				<li><a href="#"><span class="line"></span>잘못된 식습관<span class="ude"></span></a></li>
+				<li><a href="#"><span class="line"></span>채소 과일 섭취의 중요성<span class="ude"></span></a></li>
+				<li><a href="#"><span class="line"></span>채소 과일 영양소<span class="ude"></span></a></li>
+				<li><a href="#"><span class="line"></span>건강주스 소개/장점<span class="ude"></span></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //[D] local navigation bar -->
+	</div>
+	<!-- //[D] 전페이지 공통 네비게이션 -->
+
+	<hr>
+
+	<!-- [D] 전페이지 공통 콘텐츠 영역 -->
+	<div id="container">
+		<div id="content">
+
+		</div>
+		<a href="#" class="bnc back">뒤로가기</a>
+		<a href="#" class="bnc top">상단으로 가기</a>
+	</div>
+	<!-- //[D] 전페이지 공통 콘텐츠 영역 -->
+
+	<hr>
+
+	<!-- [D] 전페이지 공통 푸터 -->
+	<div id="footer">
+		<h2 class="ft_logo sp">HUROM JUICE CAFE</h2>
+		<p class="ft_info">주소 : 서울특별시 강남구 도산대로 164(논현동)<br>대표 : 박정률 | 대표번호 : 1644-1514</p>
+		<div class="ft_link">
+			<a href="#" class="nk1">개인정보 취급방침</a>
+			<a href="#" class="nk2">이용약관</a>
+		</div>
+		<div class="ft_share">
+			<a href="#" class="sp nv">NAVER</a>
+			<a href="#" class="sp fb">Facebook</a>
+			<a href="#" class="sp ig">Instagram</a>
+			<a href="#" class="sp yt">Youtube</a>
+		</div>
+		<div class="ft_copy">
+			<address class="copy">© 2015 HUROM FARM.</address>
+		</div>
+	</div>
+	<!-- //[D] 전페이지 공통 푸터 -->
+</div>
+</body>
+</html>
