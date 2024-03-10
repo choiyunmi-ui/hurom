@@ -1,5 +1,9 @@
 #title
 content
+<<<<<<< HEAD
 mastermaster
+=======
+test
+>>>>>>> test2
 #title
 content
