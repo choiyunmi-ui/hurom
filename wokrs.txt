@@ -1,9 +1,5 @@
 #title
 content
-<<<<<<< HEAD
-mastermaster
-=======
-test
->>>>>>> test2
+mastermaster, test
 #title
 content
